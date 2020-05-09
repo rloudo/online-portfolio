@@ -1,9 +1,34 @@
 @tailwind base;
+
+@font-face {
+	font-family: 'Montserrat' sans-serif;
+	font-weight: 700;
+	src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap") format("ttf");
+  }
+  @font-face {
+	font-family: 'Lato' serif;
+	src: url(/fonts/Lato-Light.ttf) format("ttf");
+  }
+  @font-face {
+	font-family: 'IBMPlexMono' monospace;
+	src: url(/fonts/IBMPlexMono-Medium.ttf) format("ttf");
+  }
+
+  h1 {
+	  @apply text-4xl font-sans font-bold;
+  }
+
+  p {
+	  @apply font-serif;
+  }
+
+
+
 @tailwind components;
 
 a {
-	@apply text-ws-blue-500 underline;
-}
+	@apply text-picton-blue-500 underline;
+  }
 
 .rocket {
 	animation: rocket 0.7s linear infinite both;
