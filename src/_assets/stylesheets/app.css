@@ -1,25 +1,16 @@
 @tailwind base;
 
-@font-face {
-	font-family: 'Montserrat' sans-serif;
-	font-weight: 700;
-	src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap") format("ttf");
-  }
-  @font-face {
-	font-family: 'Lato' serif;
-	src: url(/fonts/Lato-Light.ttf) format("ttf");
-  }
-  @font-face {
-	font-family: 'IBMPlexMono' monospace;
-	src: url(/fonts/IBMPlexMono-Medium.ttf) format("ttf");
+html {
+	font-family: 'Montserrat', -apple-system, 'Montserrat', BlinkMacSystemFont,
+	  'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   }
 
-  h1 {
+h1 {
 	  @apply text-4xl font-sans font-bold;
   }
 
-  p {
-	  @apply font-serif;
+p {
+	  @apply text-snow-drift-900;
   }
 
 
