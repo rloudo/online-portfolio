@@ -23,6 +23,6 @@
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.4.4",
     "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
